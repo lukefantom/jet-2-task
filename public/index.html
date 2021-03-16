@@ -2,6 +2,33 @@
 <html>
   <head> <script defer src="jet-2.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
   <body>
-    <h1 class="test">Hello World</h1>
+    <div class="overlay">
+      <!-- Popup Template -->
+      <div class="modal">
+        <div class="modal__content">
+          <div class="modal__header">
+            <img
+              href="public/icons8-checked.svg"
+              class="modal__icon"
+              width="50px"
+              height="50px"
+            />
+            <h2 class="modal__title">
+              Congratulations your jet2 holiday booking has been confirmed
+            </h2>
+          </div>
+          <p class="modal__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="modal__navigation">
+          <button class="modal__button modal__button--cancel">Cancel</button>
+          <button class="modal__button modal__button--continue">Confirm</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

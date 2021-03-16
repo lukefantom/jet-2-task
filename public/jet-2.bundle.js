@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\n\nconsole.log(\"hello world\");\nconsole.log(\"hi\");\n\nvar testFunction = function testFunction() {\n  console.log(\"new hello world\");\n};\n\n//# sourceURL=webpack://jet-2/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\n\n\n//# sourceURL=webpack://jet-2/./src/index.js?");
 
 /***/ }),
 
