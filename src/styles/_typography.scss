@@ -1,0 +1,28 @@
+@import "./helpers/rem";
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #203241;
+}
+
+p {
+  color: #626262;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 500;
+}

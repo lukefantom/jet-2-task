@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head> <script defer src="jet-2.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+  <head> <script defer src="jet-2.bundle.js"></script></head>
   <body>
-    <div class="overlay">
+    <!-- Overlay Container -->
+    <div id="overlay" class="overlay">
+      <!-- Add Modal Button -->
+      <button id="add-modal">Add Modal</button>
+
       <!-- Popup Template -->
-      <div class="modal">
+      <div id="modal-template" class="modal hidden">
         <div class="modal__content">
           <div class="modal__header">
-            <img
-              href="public/icons8-checked.svg"
-              class="modal__icon"
-              width="50px"
-              height="50px"
-            />
             <h2 class="modal__title">
               Congratulations your jet2 holiday booking has been confirmed
             </h2>
@@ -25,8 +23,12 @@
           </p>
         </div>
         <div class="modal__navigation">
-          <button class="modal__button modal__button--cancel">Cancel</button>
-          <button class="modal__button modal__button--continue">Confirm</button>
+          <button id="cancel" class="modal__button modal__button--cancel">
+            Cancel
+          </button>
+          <button id="continue" class="modal__button modal__button--continue">
+            Continue
+          </button>
         </div>
       </div>
     </div>
