@@ -1,12 +1,10 @@
 .modal {
   background-color: #f2f2f2;
-  position: relative;
+  position: fixed;
   width: 100%;
-  margin: 2rem;
-}
-
-.hidden {
-  display: none;
+  bottom: 0;
+  animation-name: animateBottom;
+  animation-duration: 0.25s;
 }
 
 .modal__header {
@@ -58,6 +56,8 @@
   .modal {
     position: relative;
     width: 75%;
+    animation-name: animateTop;
+    animation-duration: 0.25s;
   }
 
   .modal__navigation {
@@ -68,5 +68,29 @@
   .modal__button {
     margin: 0 0.25rem;
     padding: 1rem 5rem;
+  }
+}
+
+// Animate in from bottom - on Mobile
+@keyframes animateBottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+// Animate in from top - on Tablet/Desktop
+@keyframes animateTop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
   }
 }
