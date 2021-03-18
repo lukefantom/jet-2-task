@@ -42,6 +42,10 @@
   background-color: #dfdfdf;
 }
 
+.modal__button--cancel:active {
+  background-color: #f2f2f2;
+}
+
 .modal__button--continue {
   background-color: #203241;
   color: white;
@@ -49,6 +53,10 @@
 
 .modal__button--continue:hover {
   background-color: #304c63;
+}
+
+.modal__button--continue:active {
+  background-color: #203241;
 }
 
 // Tablet/Desktop Md Breakpoint
