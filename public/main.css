@@ -27,6 +27,7 @@ h3 {
 
 p {
   color: #626262;
+  font-size: 0.75rem;
 }
 
 button {
@@ -37,15 +38,37 @@ button {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
 .modal {
   background-color: #f2f2f2;
   position: fixed;
@@ -61,7 +84,7 @@ h2 {
 }
 
 .modal__icon {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .modal__content {
@@ -72,7 +95,7 @@ h2 {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #626262;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem;
 }
 
 .modal__button {
@@ -118,6 +141,7 @@ h2 {
   .modal__navigation {
     flex-direction: row;
     justify-content: center;
+    padding: 2rem;
   }
 
   .modal__button {
